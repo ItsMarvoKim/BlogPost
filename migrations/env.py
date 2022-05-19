@@ -33,6 +33,7 @@ target_metadata = current_app.extensions['migrate'].db.metadata
 # ... etc.
 
 
+
 def run_migrations_offline():
     """Run migrations in 'offline' mode.
 
@@ -88,6 +89,7 @@ def run_migrations_online():
 
         with context.begin_transaction():
             context.run_migrations()
+
 
 
 if context.is_offline_mode():
