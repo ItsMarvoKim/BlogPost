@@ -43,6 +43,7 @@ def user_loader(user_id):
     return User.query.get(user_id)
 
 
+
 class Post(db.Model):
     __tablename__ = 'posts'
     id = db.Column(db.Integer, primary_key=True)
@@ -61,6 +62,7 @@ class Post(db.Model):
 
     def __repr__(self):
         return f'Post title: {self.title}, Date Posted: {self.date_posted}, Post Content: {self.content}'
+
 
 
 class Comment(db.Model):
