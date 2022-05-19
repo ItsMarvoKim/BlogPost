@@ -1,11 +1,14 @@
-> # Personal Blog
-> This is a personal blogging website where you can create and share your opinions and other users can read and comment on them. you also has random quotes that inspire the > users. 
+> # Hope-BlogPost 
+
+> This is a personal blogging website where you can create and share your opinions and other users can read and comment on them. You also has random quotes that inspire the users, giving them hope. 
 
 > ## Author
-> Lesley Hope
+
+> Marvin Kimathi
 
 
 ## Demo
+
 You can view live demo here https://blogbyhope.herokuapp.com/
 
 
@@ -18,14 +21,14 @@ The following command installs all the application requirements
 > ## Installations
 
 > Run 
-> ``https://github.com/Lelsey159/personalBlog``
+> ``https://github.com/ItsMarvoKim/BlogPost``
 
 or download the zip file from github.
 
 After extracting the files, 
 
 1. Navigate to the project folder
->`` cd personalBlog`` 
+>`` cd BlogPost`` 
 
 2. Creating a virtual environment
 >``python3 -m venv virtual.``
@@ -43,6 +46,7 @@ After extracting the files,
 
 
 > ## Technologies used
+
 > * Python3.9
 > * Flask
 > * Html5
@@ -51,6 +55,7 @@ After extracting the files,
 
 
 ## User stories
+
 > * As a user, I would like to view the blog posts on the site
 > * As a user, I would like to comment on blog posts
 > * As a user, I would like to view the most recent posts
@@ -62,12 +67,10 @@ After extracting the files,
 > * As a writer, I would like to update or delete blogs I have created.
 > * As a writer, I would like to Logout of my account.
 
-## Test Credentials
-> * email: lesleyhope159@gmail.com
-> * Password: leshy
-
 ## License
-> MIT License &copy; 2022 LESLEY HOPE
+
+> MIT License &copy; 2022 Marvin Kimathi
 
 ## Collaborate
-To collaborate, reach me on [lesleyhope159@gmail.com()
+
+To collaborate, reach me on [issmarvokim@gmail.com()
